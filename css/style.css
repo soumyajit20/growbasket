@@ -30,7 +30,7 @@ nav {
 nav ul {
     display: inline-block;
     list-style-type: none;
-    font-size: 20px;
+    font-size: larger;
     font-weight: 550;
 }
 
@@ -116,7 +116,7 @@ p {
 }
 
 .header {
-    background: radial-gradient(#44aeff, rgb(125, 225, 255));
+    background: radial-gradient(#7de1ff,#a2ff6c);
     padding-bottom: 50px;
 }
 
@@ -146,6 +146,7 @@ p {
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
+    transition: transform 0.5s;
 }
 
 .col-4 img {
@@ -170,3 +171,21 @@ p {
     left: 50%;
     transform: translate(-50%);
 }
+
+h4{
+    color: #d41d1d;
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 14px;
+}
+.rating .fa {
+    color: #ff523b;
+}
+.col-4:hover{
+    transform: translateY(-10px);
+}
+
+
+
+
