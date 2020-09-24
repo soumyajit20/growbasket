@@ -8,7 +8,9 @@ body {
 	font-family: "Open Sans", sans-serif;
 }
 
-.logo {
+.logo img {
+	width: 55%;
+	height: auto;
 }
 
 .navbar {
@@ -28,6 +30,8 @@ nav {
 nav ul {
 	display: inline-block;
 	list-style-type: none;
+	font-size: larger;
+	font-weight: 550;
 }
 
 nav ul li {
@@ -59,5 +63,5 @@ p {
 	padding-right: 25px;
 }
 .header {
-	background: #fff;
+	background: #ffffff;
 }
