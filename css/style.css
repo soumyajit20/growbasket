@@ -283,6 +283,7 @@ h4 {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	padding: 10px;
+	background-color: #ff9d9d;
 }
 
 .foo-row-cr h3 {
