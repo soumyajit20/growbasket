@@ -5,7 +5,7 @@
 }
 
 body {
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .logo img {
@@ -164,7 +164,7 @@ p {
 	line-break: 60px;
 }
 .title::after {
-	content: "";
+	content: '';
 	background: #ff523b;
 	width: 120px;
 	height: 5px;
@@ -187,7 +187,7 @@ h4 {
 	color: #ff523b;
 }
 .col-4:hover {
-	transform: translateY(-10px);
+	transform: scale(1.04);
 }
 
 /* --------offer---------------- */
@@ -300,4 +300,3 @@ h4 {
 	color: #000000;
 	font-weight: 900px;
 }
-
