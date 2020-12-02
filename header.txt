@@ -1,91 +1,45 @@
-: HTML Code :
 
-<div class="header">
-	<div class="container">
+<div id="web__header">
+	<div class="header__container">
 		<div class="navbar">
 			<div class="logo">
-				<a href="index.html"
-					><img src="image/logo/grow3.svg" width="125px"
-				/></a>
+				<a href="index.html">
+					<img
+						src="image/logo/grow3.svg"
+						width="125px"
+						alt="growbasket logo"
+						class="logo__image"
+					/>
+				</a>
 			</div>
+			<div class="header__search">
+				<input
+					type="text"
+					class="header__searchInput"
+					placeholder="Search product..."
+				/>
+				<i class="fa fa-search" id="header__searchIcon"></i>
+			</div>
+
 			<nav>
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="product.html">Product</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="contact.html">Contact</a></li>
-					<li><a href="account.html">Account</a></li>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="product.html">Product</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+					<li>
+						<a href="login.html">Account</a>
+					</li>
 				</ul>
 			</nav>
 		</div>
 	</div>
 </div>
-
-: Css Code :
-
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-body {
-	font-family: "Open Sans", sans-serif;
-}
-
-.logo img {
-	width: 55%;
-	height: auto;
-}
-
-.navbar {
-	display: flex;
-	align-items: left;
-	padding: 20px;
-	top: 0;
-	width: 100%;
-	margin: 0 auto;
-}
-
-nav {
-	flex: 1;
-	text-align: right;
-}
-
-nav ul {
-	display: inline-block;
-	list-style-type: none;
-	font-size: larger;
-	padding: 10px 0;
-	font-weight: 550;
-}
-
-nav ul li {
-	display: inline-block;
-	margin-right: 20px;
-}
-
-a {
-	text-decoration: none;
-	color: #555555;
-}
-a:hover {
-	color: #000000;
-	text-underline-position: below;
-}
-
-/*h1, h2, h3, h4, h5 {
-    color: #fff;
-}*/
-
-p {
-	color: #555555;
-}
-
-.container {
-	width: 1300px;
-	margin: auto;
-	padding-left: 25px;
-	padding-right: 25px;
-}
-

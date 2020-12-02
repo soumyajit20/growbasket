@@ -1,154 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-body {
-	font-family: 'Open Sans', sans-serif;
-}
-
-.logo img {
-	width: 55%;
-	height: auto;
-}
-.header {
-	margin-top: 0;
-}
-
-.navbar {
-	display: flex;
-	align-items: left;
-	padding: 20px;
-	top: 0;
-	width: 100%;
-	margin: 0 auto;
-}
-
-nav {
-	flex: 1;
-	text-align: right;
-}
-
-nav ul {
-	display: inline-block;
-	list-style-type: none;
-	font-size: larger;
-	padding: 10px 0;
-	font-weight: 550;
-}
-
-nav ul li {
-	display: inline-block;
-	margin-right: 20px;
-}
-
-a {
-	text-decoration: none;
-	color: #555555;
-}
-a:hover {
-	color: #000000;
-	text-underline-position: below;
-}
-
-/*h1, h2, h3, h4, h5 {
-    color: #fff;
-}*/
-
-p {
-	color: #555555;
-}
-
-.header__container {
-	width: 1300px;
-	margin: auto;
-	padding-left: 25px;
-	padding-right: 25px;
-}
-.footer__container {
-	width: 1300px;
-	margin: auto;
-	padding-left: 25px;
-	padding-right: 25px;
-}
-
-.footer {
-	height: auto;
-	width: 100%;
-	position: relative;
-	left: 0px;
-	right: 0px;
-	text-align: left;
-	background-color: white;
-}
-.foo-row {
-	display: flex;
-	align-items: center;
-	position: relative;
-	top: 10px;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	padding: 20px;
-}
-
-.foo-row h3 {
-	color: rgb(240, 0, 0);
-	padding-bottom: 4%;
-}
-
-.foo-row .heading_text {
-	font-size: 20px;
-	font-weight: 500;
-	color: #ff0000;
-}
-/*.foo-col-1 */
-#pic {
-	height: auto;
-	width: 23%;
-	border-radius: 10px;
-}
-.foo-col-1 p {
-	font-weight: 500;
-	color: black;
-}
-.foo-col-1 img {
-	height: auto;
-	width: 70%;
-	/*padding-bottom: 15%;*/
-	margin-left: 5%;
-}
-.foo-col-3 {
-	padding-bottom: 25px;
-}
-.foo-col-4 {
-	padding-bottom: 30px;
-}
-.foo-row-cr {
-	display: flex;
-	align-items: center;
-	position: relative;
-	top: 32px;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	padding: 10px;
-}
-
-.foo-row-cr h3 {
-	color: rgb(240, 0, 0);
-	padding-bottom: 4%;
-}
-
-.foo-row-cr .heading_text {
-	font-size: 20px;
-	font-weight: 500;
-	color: #ff0000;
-}
-.foo-row-cr p {
-	color: black;
-	font-weight: 900px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /*main css*/
 
@@ -226,6 +78,11 @@ p {
 	font-size: 30px;
 	color: darkred;
 	font-weight: 500;
+	text-align: center;
+	margin-bottom: 28px;
+}
+.contactForm h2 u {
+	font-family: 'Montserrat', sans-serif;
 }
 .contactForm .inputBox {
 	position: relative;

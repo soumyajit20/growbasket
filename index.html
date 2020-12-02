@@ -4,7 +4,9 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Grow Basket</title>
-		<link rel="stylesheet" href="css/cssminify.css" />
+		<link rel="stylesheet" href="css/home.css" />
+		<link rel="stylesheet" href="css/Header.css" />
+		<link rel="stylesheet" href="css/footer.css" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
 			rel="stylesheet"
@@ -13,30 +15,55 @@
 			rel="stylesheet"
 			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-		/>
+		<!-- <link rel='stylesheet' href='css/Header.css'/> -->
 	</head>
 	<body>
-		<div class="header">
-			<div class="container">
+		<div id="web__header">
+			<div class="header__container">
 				<div class="navbar">
 					<div class="logo">
-						<a href="index.html"
-							><img src="image/logo/grow3.svg" width="125px"
-						/></a>
+						<a href="index.html">
+							<img
+								src="image/logo/logo.png"
+								width="125px"
+								alt="growbasket logo"
+								class="logo__image"
+							/>
+						</a>
 					</div>
+					<div class="header__search">
+						<input
+							type="text"
+							class="header__searchInput"
+							placeholder="Search product..."
+						/>
+						<i class="fa fa-search" id="header__searchIcon"></i>
+					</div>
+
 					<nav>
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="product.html">Product</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
-							<li><a href="account.html">Account</a></li>
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="product.html">Product</a>
+							</li>
+							<li>
+								<a href="about.html">About</a>
+							</li>
+							<li>
+								<a href="contact.html">Contact</a>
+							</li>
+							<li>
+								<a href="login.html">Account</a>
+							</li>
 						</ul>
 					</nav>
 				</div>
+			</div>
+		</div>
+		<div class="header">
+			<div class="container"  style="margin-top: 4%; padding-left: 30px;">
 				<div class="row">
 					<div class="col-2">
 						<h1>
@@ -57,6 +84,8 @@
 			</div>
 		</div>
 
+
+		<!-- <script src='Header.js'></script> -->
 		<!------------- featured Category -------------------->
 
 		<div class="category">
