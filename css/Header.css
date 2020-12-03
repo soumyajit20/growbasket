@@ -61,13 +61,14 @@ nav ul li {
 
 nav ul li a {
 	display: grid;
+	font-size: 16px;
 	align-items: center;
 	text-decoration: none;
-	color: #ffffff;
+	color: #ececec;
 }
 nav ul li a:hover {
-	color: #000;
-	background-color: chartreuse;
+	color: #ffffff;
+	/* background-color: chartreuse; */
 	text-underline-position: below;
 }
 
