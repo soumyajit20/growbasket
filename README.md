@@ -2,4 +2,4 @@
 
 It is our college project, in this website people can buy and sell grocery products online at very cheap price very easily.
 
-# https://sukantamajhi.github.io/growbasket/
+# https://growbasket.netlify.app
