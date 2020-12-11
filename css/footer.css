@@ -62,7 +62,7 @@
 	height: auto;
 	width: 70%;
 	/*padding-bottom: 15%;*/
-	margin-left: 5%;
+	/* margin-left: 5%; */
 }
 .foo-col-3 {
 	padding-bottom: 25px;
@@ -113,14 +113,12 @@ hr {
 	content: '\f09a';
 	color: #1195f5;
 }
-.fa-twitter-f:before,
 .fa-twitter:before {
-	content: '\f09a';
+	content: '\f099';
 	color: #1da1f2;
 }
-.fa-instagram-f:before,
 .fa-instagram:before {
-	content: '\f09a';
+	content: '\f16d';
 	color: #8a3ab9;
 }
 .fa-youtube-play:before {
