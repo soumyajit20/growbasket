@@ -62,12 +62,14 @@ nav ul li a {
 	font-size: 16px;
 	align-items: center;
 	text-decoration: none;
-	color: #ececec;
+	color: #d4d1d1;
 }
 nav ul li a:hover {
 	color: #ffffff;
-	/* background-color: chartreuse; */
 	text-underline-position: below;
+}
+nav ul li a:focus {
+	color: #ffffff;
 }
 
 /*h1, h2, h3, h4, h5 {
