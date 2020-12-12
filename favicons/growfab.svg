@@ -45,7 +45,8 @@
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g26" />
+     inkscape:current-layer="g26"
+     inkscape:document-rotation="0" />
   <defs
      id="defs10">
     <clipPath
@@ -87,7 +88,7 @@
      style="filter:url(#filter30)">
     <g
        id="surface1"
-       transform="matrix(3.0197253,-0.004948,0.00508181,2.9402159,-378.82986,-362.85161)">
+       transform="matrix(2.940714,-0.00480216,0.00494884,2.853556,-364.01051,-347.2281)">
       <g
          clip-path="url(#clip1)"
          clip-rule="nonzero"
