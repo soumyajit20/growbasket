@@ -95,6 +95,9 @@
 	margin-bottom: 50px;
 	transition: transform 0.5s;
 }
+a {
+	text-decoration: none;
+}
 
 .col-4 img {
 	width: 100%;

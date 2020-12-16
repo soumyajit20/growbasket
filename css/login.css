@@ -1,0 +1,29 @@
+.login {
+	/* box-shadow: 10px 5px 5px red; */
+	height: 50%;
+	width: fit-content;
+}
+
+input:focus::-webkit-input-placeholder {
+	font-size: 0.75em;
+	position: relative;
+	top: -15px;
+	transition: 0.5s ease-out;
+}
+
+input::-webkit-input-placeholder {
+	transition: 0.5s ease-in;
+}
+
+input:focus {
+	height: 50px;
+	padding-bottom: 0px;
+	transition: 0.5s ease-in;
+}
+
+input {
+	height: 50px;
+	transition: 0.5s ease-in;
+	width: 100%;
+	padding: 0 50px;
+}
