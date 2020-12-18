@@ -1,19 +1,114 @@
-.login {
-	/* box-shadow: 10px 5px 5px red; */
-	height: 50%;
-	width: fit-content;
+body {
+	background-color: rgb(216, 216, 240);
+}
+
+#form {
+	/* position: absolute; */
+	position: relative;
+	width: 450px;
+	height: 480px;
+	margin: auto;
+	top: 45px;
+	justify-content: center;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content {
+	margin-left: 100px;
+	margin-top: 50px;
+}
+
+#pass {
+	position: absolute;
+	bottom: 272px;
+	width: 300px;
+	height: 40px;
+	right: 70px;
+	border-radius: 7px;
+	/* text-align: center; */
+	font-size: 17px;
+	outline-color: rgb(103, 164, 255);
+	border: 0.4px solid rgb(175, 171, 171);
+	color: rgb(175, 171, 171);
+}
+
+#user {
+	position: absolute;
+	/* bottom: 140px; */
+	width: 300px;
+	height: 40px;
+	outline-color: rgb(103, 164, 255);
+	border: 0.4px solid rgb(175, 171, 171);
+	color: rgb(175, 171, 171);
+	border-radius: 7px;
+	/* text-align: center; */
+	right: 70px;
+	top: 97px;
+	font-size: 17px;
+}
+#btn {
+	position: absolute;
+	left: 100px;
+	top: 250px;
+	outline: none;
+	border-radius: 5px;
+	height: 50px;
+	width: 250px;
+	font-size: 25px;
+	border: none;
+	background-color: rgb(68, 68, 250);
+	display: inline-block;
+	color: white;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+		0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+#btn:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+#btn:active {
+	transform: translateY(4px);
+}
+
+#para {
+	position: absolute;
+	top: 18px;
+	left: 165px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 27px;
+	background-color: rgba(6, 170, 6, 0.856);
+	padding: 5px;
+	color: white;
+	border-radius: 10px;
+	/* border-color: ; */
+}
+
+#para:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.dnt {
+	position: absolute;
+	bottom: 84px;
+	right: 74px;
+	font-size: 19px;
 }
 
 input:focus::-webkit-input-placeholder {
 	font-size: 0.75em;
 	position: relative;
-	top: -15px;
-	transition: 0.5s ease-out;
+	transform: translateY(-15px);
+	transition: 0.4s ease-out;
 }
 
-input::-webkit-input-placeholder {
+/* input::-webkit-input-placeholder {
 	transition: 0.5s ease-in;
-}
+} */
 
 input:focus {
 	height: 50px;
@@ -24,6 +119,4 @@ input:focus {
 input {
 	height: 50px;
 	transition: 0.5s ease-in;
-	width: 100%;
-	padding: 0 50px;
 }

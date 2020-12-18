@@ -1,34 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="css/login.css" />
-		<title>Grow Basket | Mini Project | Login</title>
+		<link rel="stylesheet" href="./css/login.css" />
+		<link rel="stylesheet" href="css/Header.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
-		<!-- login section -->
-		<div class="login">
-			<form action="#" method="POST">
-				<div class="mailid">
-					<input
-						type="email"
-						name="emailid"
-						class="emailid"
-						id="emailid"
-						placeholder="Enter your email"
-					/>
+		<!-- header -->
+		<div id="web__header">
+			<div class="header__container">
+				<div class="navbar">
+					<div class="logo">
+						<a href="index.html">
+							<img
+								src="./image/logo/logo.svg"
+								width="125px"
+								alt="growbasket logo"
+								class="logo__image"
+							/>
+						</a>
+					</div>
+					<div class="header__search">
+						<input
+							type="text"
+							class="header__searchInput"
+							placeholder="Search Products Here..."
+						/>
+						<i class="fa fa-search" id="header__searchIcon"></i>
+					</div>
+
+					<nav>
+						<ul>
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="product.html">Product</a>
+							</li>
+							<li>
+								<a href="about.html">About</a>
+							</li>
+							<li>
+								<a href="contact.html">Contact</a>
+							</li>
+							<li>
+								<a href="login.html">Account</a>
+							</li>
+						</ul>
+					</nav>
 				</div>
-				<div class="password">
-					<input
-						type="password"
-						name="pwd"
-						id="pwd"
-						class="pwd"
-						placeholder="Enter your Password"
-					/>
-				</div>
-			</form>
+			</div>
 		</div>
+		<!-- form -->
+		<div class="form__body" style="padding-bottom: 90px">
+			<div id="form">
+				<div class="adjust">
+					<p id="para">Login Here</p>
+				</div>
+				<div class="content">
+					<input
+						type="text"
+						id="user"
+						placeholder="Enter email or Phone Number"
+						required
+					/>
+					<br />
+					<div class="passwrd">
+						<input
+							type="password"
+							id="pass"
+							placeholder="Enter your password"
+							required
+						/>
+					</div>
+					<br />
+					<input type="button" id="btn" name="" value="Login" />
+				</div>
+				<div class="dnt">
+					<p id="dnt2">Don't have an account?Sign Up</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<!------------footer------------->
+		<div class="footer">
+			<div class="footer__container">
+				<div class="foo-row">
+					<div class="foo-col-1">
+						<a href="index.html">
+							<img src="image/logo/logo.svg" alt="Logo" />
+						</a>
+						<p>
+							Order and get fresh product delivery in your door.
+						</p>
+					</div>
+					<div class="foo-col-2">
+						<h3>GrowBasket</h3>
+						<p><a href="about.html">About Us</a></p>
+						<p><a href="privacy.html">Privacy Policy</a></p>
+						<p><a href="affiliate.html">Affiliate</a></p>
+						<p>
+							<a href="./Footer_Link/tac.html"
+								>Terms and Conditions</a
+							>
+						</p>
+					</div>
+					<div class="foo-col-3">
+						<h3>Help</h3>
+						<p><a href="faqs.html">FAQs</a></p>
+						<p><a href="contact.html">Contact Us</a></p>
+						<p><a href="feedback.html">Feedback</a></p>
+					</div>
+					<div class="foo-col-4">
+						<h3>Social Media</h3>
+						<a href="https://www.facebook.com/"
+							><i class="fa fa-facebook" aria-hidden="true"></i
+						></a>
+
+						<a href="https://www.twitter.com/"
+							><i class="fa fa-twitter" aria-hidden="true"></i>
+						</a>
+						<a
+							href="https://w
+						ww.instagram.com/"
+							><i class="fa fa-instagram" aria-hidden="true"></i>
+						</a>
+						<a href="https://www.youtube.com/"
+							><i
+								class="fa fa-youtube-play"
+								aria-hidden="true"
+							></i>
+						</a>
+					</div>
+				</div>
+				<hr />
+				<div class="foo-row-cr">
+					<p align="left">
+						Copyright &copy; GrowBasket - All rights reserved
+					</p>
+				</div>
+			</div>
+		</div>
+		<script></script>
 	</body>
 </html>
