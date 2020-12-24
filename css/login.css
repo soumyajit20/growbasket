@@ -39,9 +39,9 @@ body {
 	/* bottom: 140px; */
 	width: 300px;
 	height: 40px;
-	outline-color: rgb(103, 164, 255);
-	border: 0.4px solid rgb(175, 171, 171);
-	color: rgb(175, 171, 171);
+	outline-color: #67a4ff;
+	border: 0.4px solid #afabab;
+	color: #afabab;
 	border-radius: 7px;
 	/* text-align: center; */
 	right: 70px;
