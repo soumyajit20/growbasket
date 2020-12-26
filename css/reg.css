@@ -19,6 +19,7 @@ body {
 	position: relative;
 	margin-top: 128px;
 	background-size: cover;
+	z-index: -10;
 }
 
 .header {
@@ -299,4 +300,14 @@ body {
 	left: 5px;
 	font-size: 22px;
 	top: 170px;
+}
+
+.login {
+	margin: auto;
+	position: absolute;
+	text-align: center;
+	bottom: 16px;
+	left: 43%;
+	z-index: 1000000;
+	cursor: pointer;
 }
