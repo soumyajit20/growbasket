@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link rel="stylesheet" href="./css/login.css" />
-		<link rel="stylesheet" href="css/Header.css" />
-		<link rel="stylesheet" href="css/footer.css" />
 		<link
 			rel="stylesheet"
 			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+			integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+			crossorigin="anonymous"
 		/>
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/reg.css" />
+		<link rel="stylesheet" href="./css/Header.css" />
+		<link rel="stylesheet" href="./css/footer.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap"
 			rel="stylesheet"
 		/>
 	</head>
+
 	<body>
 		<!-- header -->
 		<div id="web__header">
@@ -60,35 +70,82 @@
 				</div>
 			</div>
 		</div>
-		<!-- form -->
-		<div class="form__body" style="padding-bottom: 90px">
-			<div id="form">
-				<div class="adjust">
-					<p id="para">Login Here</p>
+		<!-- Form -->
+		<div class="form">
+			<div class="form-box">
+				<div class="header">
+					<p id="hpara">Register here</p>
 				</div>
-				<div class="content">
-					<input
-						type="text"
-						id="user"
-						placeholder="Enter email or Phone Number"
-						required
-					/>
+				<div class="format">
+					<div class="firstn">
+						<input
+							type="text"
+							id="fname"
+							placeholder="First Name"
+						/>
+					</div>
 					<br />
-					<div class="passwrd">
+					<div class="lastn">
+						<input type="text" id="lname" placeholder="Last Name" />
+					</div>
+					<br />
+					<div class="phno">
+						<input
+							type="number"
+							id="fno"
+							placeholder="Phone Number"
+						/>
+					</div>
+					<br />
+
+					<div class="mails">
+						<i
+							class="fa fa-envelope"
+							id="email"
+							aria-hidden="true"
+						></i>
+						<input
+							type="email"
+							placeholder="Email Address"
+							id="em"
+						/>
+					</div>
+
+					<br />
+					<div class="passw">
+						<i
+							class="fa fa-unlock-alt"
+							id="passwrd"
+							aria-hidden="true"
+						></i>
 						<input
 							type="password"
 							id="pass"
 							placeholder="Enter your password"
-							required
 						/>
 					</div>
+
 					<br />
-					<input type="button" id="btn" name="" value="Login" />
-				</div>
-				<div class="dnt">
-					<a href="reg.html"
-						><p id="dnt2">Don't have an account?Sign Up</p>
-					</a>
+					<div class="para1">
+						<p id="pstyle">Or SignUp with</p>
+					</div>
+
+					<div class="facebook">
+						<!-- <span class="material-icons" id="face"> facebook </span> -->
+						<i class="fa fa-facebook facebook__login" aria-hidden="true"></i>
+						<button type="button" id="social-fb">
+							Signup with Facebook
+						</button>
+					</div>
+					<div class="google">
+						<i class="fa fa-google" aria-hidden="true"></i>
+						<button type="button" id="social-gm">
+							Signup with Google
+						</button>
+					</div>
+					<div class="btns">
+						<button type="button" id="regbtn">Register</button>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -153,6 +210,5 @@
 				</div>
 			</div>
 		</div>
-		<script></script>
 	</body>
 </html>
