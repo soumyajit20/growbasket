@@ -97,16 +97,20 @@ p {
 }
 
 .header__searchInput {
-	height: 43px;
-	font-size: 20px;
-	font-family: 'Roboto', sans-serif;
-	padding: 10px;
-	padding-left: 20px;
-	padding-right: 50px;
-	width: 100%;
-	border-radius: 8px 0 0 8px;
-	border: none;
-	outline: 0 none;
+	/* margin-top: 8px !important; */
+	height: 43px !important;
+	font-size: 20px !important;
+	font-family: 'Roboto', sans-serif !important;
+	padding: 10px !important;
+	padding-left: 20px !important;
+	padding-right: 50px !important;
+	width: 100% !important;
+	border-radius: 8px 0 0 8px !important;
+	border: none !important;
+	outline: 0 none !important;
+	background-color: white !important;
+	box-sizing: border-box !important;
+	transition: none !important;
 }
 
 #header__searchIcon {

@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="google-signin-client_id"
+			content="YOUR_CLIENT_ID.apps.googleusercontent.com"
+		/>
+
+		<link rel="stylesheet" href="css/reg.css" />
+		<link rel="stylesheet" href="css/Header.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<!-- Compiled and minified CSS -->
+		<link rel="stylesheet" href="materialize_css/materialize.min.css" />
+		<link
+			rel="shortcut icon"
+			href="./favicons/growfab.svg"
+			type="image/x-icon"
+		/>
 		<link
 			rel="stylesheet"
 			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 			integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
 			crossorigin="anonymous"
 		/>
-		<link rel="preconnect" href="https://fonts.gstatic.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="./css/reg.css" />
-		<link rel="stylesheet" href="./css/Header.css" />
-		<link rel="stylesheet" href="./css/footer.css" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
-			href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
 			rel="stylesheet"
 		/>
+		<title>Reg Test</title>
 	</head>
-
 	<body>
 		<!-- header -->
 		<div id="web__header">
@@ -43,7 +54,8 @@
 						<input
 							type="text"
 							class="header__searchInput"
-							placeholder="Search Products Here..."
+							placeholder="Search product..."
+							style="margin-top: 8px !important"
 						/>
 						<i class="fa fa-search" id="header__searchIcon"></i>
 					</div>
@@ -70,96 +82,97 @@
 				</div>
 			</div>
 		</div>
-		<!-- Form -->
-		<div class="form">
-			<div class="form-box">
-				<div class="header">
-					<p id="hpara">Register here</p>
-				</div>
-				<div class="format">
-					<div class="firstn">
-						<input
-							type="text"
-							id="fname"
-							placeholder="First Name"
-						/>
-					</div>
-					<br />
-					<div class="lastn">
-						<input type="text" id="lname" placeholder="Last Name" />
-					</div>
-					<br />
-					<div class="phno">
-						<input
-							type="number"
-							id="fno"
-							placeholder="Phone Number"
-						/>
-					</div>
-					<br />
 
-					<div class="mails">
-						<i
-							class="fa fa-envelope"
-							id="email"
-							aria-hidden="true"
-						></i>
-						<input
-							type="email"
-							placeholder="Email Address"
-							id="em"
-						/>
-					</div>
-
-					<br />
-					<div class="passw">
-						<i
-							class="fa fa-unlock-alt"
-							id="passwrd"
-							aria-hidden="true"
-						></i>
-						<input
-							type="password"
-							id="pass"
-							placeholder="Enter your password"
-						/>
-					</div>
-
-					<br />
-					<div class="para1">
-						<p id="pstyle">Or SignUp with</p>
-					</div>
-
-					<div class="facebook">
-						<!-- <span class="material-icons" id="face"> facebook </span> -->
-						<i
-							class="fa fa-facebook facebook__login"
-							aria-hidden="true"
-						></i>
-						<button type="button" id="social-fb">
-							Signup with Facebook
-						</button>
-					</div>
-					<div class="google">
-						<i class="fa fa-google" aria-hidden="true"></i>
-						<button type="button" id="social-gm">
-							Signup with Google
-						</button>
-					</div>
-					<div class="btns">
-						<button type="button" id="regbtn">Register</button>
-					</div>
+		<!-- form -->
+		<div class="signup">
+			<div class="form">
+				<div class="row">
+					<form class="col s12">
+						<div class="row">
+							<div class="input-field col s6">
+								<input
+									id="first_name"
+									type="text"
+									class="validate"
+								/>
+								<label for="first_name">First Name</label>
+							</div>
+							<div class="input-field col s6">
+								<input
+									id="last_name"
+									type="text"
+									class="validate"
+								/>
+								<label for="last_name">Last Name</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<input
+									id="email"
+									type="email"
+									class="validate"
+								/>
+								<label for="email">Email</label>
+								<!-- <span class="helper-text"></span> -->
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<input
+									id="password"
+									type="password"
+									class="validate"
+								/>
+								<label for="password">Password</label>
+								<span
+									><input
+										type="checkbox"
+										onclick="myFunction()"
+									/>
+								</span>
+								<span>Show Password</span>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12 button">
+								<button
+									class="btn waves-effect waves-dark light-blue darken-4 pulse"
+									type="submit"
+									name="action"
+								>
+									Submit
+									<i class="material-icons right">send</i>
+								</button>
+							</div>
+						</div>
+						<div class="row">
+							<div class="done">
+								<a href="login.html"
+									>If you are already register, Click here</a
+								>
+							</div>
+						</div>
+					</form>
 				</div>
 			</div>
-		</div>
-		<div class="login">
-			<p id="dnt2">
-				<a href="login.html">Already Registered? Sign in</a>
-			</p>
+			<div class="third__party__login">
+				<div id="my-signin2"></div>
+				<div class="spacer"></div>
+				<div id="fb-root"></div>
+				<div
+					class="fb-login-button"
+					data-width=""
+					data-size="large"
+					data-button-type="continue_with"
+					data-layout="default"
+					data-auto-logout-link="false"
+					data-use-continue-as="true"
+				></div>
+			</div>
 		</div>
 
-		<!-- Footer -->
-		<!------------footer------------->
+		<!-- footer -->
 		<div class="footer">
 			<div class="footer__container">
 				<div class="foo-row">
@@ -212,11 +225,60 @@
 				</div>
 				<hr />
 				<div class="foo-row-cr">
+					<!-- <div class="foo-copyright"> -->
 					<p align="left">
 						Copyright &copy; GrowBasket - All rights reserved
 					</p>
+					<!-- </div> -->
 				</div>
 			</div>
 		</div>
+
+		<!-- Javascripts -->
+		<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script
+			src="https://apis.google.com/js/platform.js?onload=renderButton"
+			async
+			defer
+		></script>
+		<script type="text/javascript">
+			function onSuccess(googleUser) {
+				console.log(
+					'Logged in as: ' + googleUser.getBasicProfile().getName()
+				);
+			}
+			function onFailure(error) {
+				console.log(error);
+			}
+			function renderButton() {
+				gapi.signin2.render('my-signin2', {
+					scope: 'profile email',
+					width: 240,
+					height: 50,
+					longtitle: true,
+					theme: 'dark',
+					onsuccess: onSuccess,
+					onfailure: onFailure,
+				});
+			}
+		</script>
+		<script
+			async
+			defer
+			crossorigin="anonymous"
+			src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0&appId=368535717791916&autoLogAppEvents=1"
+			nonce="5GBKFqbI"
+		></script>
+		<script>
+			function myFunction() {
+				var x = document.getElementById('password');
+				if (x.type === 'password') {
+					x.type = 'text';
+				} else {
+					x.type = 'password';
+				}
+			}
+		</script>
 	</body>
 </html>
