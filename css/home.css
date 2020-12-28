@@ -4,7 +4,6 @@
 	padding-left: 25px;
 	padding-right: 25px;
 }
-
 .row {
 	display: flex;
 	align-items: center;
@@ -14,11 +13,9 @@
 	justify-content: space-around;
 	padding: 20px;
 }
-
 .row h1 {
 	color: rgb(240, 0, 0);
 }
-
 .row .heading_text {
 	font-size: 20px;
 	font-weight: 500;
@@ -28,19 +25,16 @@
 	flex-basis: 50%;
 	min-width: 300px;
 }
-
 .col-2 img {
 	max-width: 100%;
 	padding: 50px 0;
 	height: 500px;
 }
-
 .col-2 h1 {
 	font-size: 50px;
 	line-height: 60px;
 	margin: 25px 0;
 }
-
 .btn {
 	display: inline-block;
 	background: #f0361d;
@@ -51,7 +45,6 @@
 	transition: 0.5s;
 	cursor: pointer;
 }
-
 .btn:hover {
 	display: inline-block;
 	background: #8f0404;
@@ -60,34 +53,28 @@
 	transition: 0.5s;
 	transform: scale(1.04);
 }
-
 .header {
 	background: radial-gradient(#7de1ff, #a2ff6c);
 	height: 100vh;
 	padding-bottom: 90px;
 }
-
 .category {
 	margin: 70px 0;
 }
-
 .col-3 {
 	flex-basis: 30%;
 	min-width: 200px;
 	margin-bottom: 30px;
 }
-
 .col-3 img {
 	width: 100%;
 }
-
 .small-container {
 	max-width: 1080px;
 	margin: auto;
 	padding-left: 25px;
 	padding-right: 25px;
 }
-
 .col-4 {
 	flex-basis: 25%;
 	padding: 10px;
@@ -98,7 +85,6 @@
 a {
 	text-decoration: none;
 }
-
 .col-4 img {
 	width: 100%;
 }
@@ -122,7 +108,6 @@ a {
 	left: 50%;
 	transform: translate(-50%);
 }
-
 h4 {
 	color: #d41d1d;
 	font-weight: normal;
@@ -136,9 +121,7 @@ h4 {
 .col-4:hover {
 	transform: scale(1.04);
 }
-
 /* --------offer---------------- */
-
 .offer {
 	background: radial-gradient(#7de1ff, #a2ff6c);
 	margin-top: 80px;
@@ -151,7 +134,6 @@ h4 {
 	color: #ddb9b9;
 }
 /* ------------------about-us------------------ */
-
 .about_us {
 	padding-top: 100px;
 	position: relative;

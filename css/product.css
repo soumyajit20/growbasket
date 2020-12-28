@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 /* product */
-
 a {
 	text-decoration: none;
 	color: red;
@@ -13,18 +11,15 @@ a {
 	text-decoration: underline;
 	margin: 30px 0;
 }
-
 /* Product Cards */
 #product {
 	margin-top: 20px;
 }
-
 .product__row {
 	display: flex;
 	justify-content: space-between;
 	padding: 0px 76px;
 }
-
 .product__column {
 	display: flex;
 	flex-direction: column;
@@ -38,13 +33,11 @@ a {
 	padding: 20px;
 	transition: transform 0.5s;
 }
-
 .product__column:hover {
 	box-shadow: 5px 10px 18px #faed27;
 	transition: transform 0.5s;
 	transform: scale(1.04);
 }
-
 .product__column > img {
 	width: 100%;
 	height: auto;
@@ -52,7 +45,6 @@ a {
 .product__column > h4 {
 	font-size: 20px;
 }
-
 .card__button {
 	border: none;
 	background-color: #90ee90;
@@ -78,23 +70,19 @@ a {
 	transition: 0.5s;
 	transform: scale(1.04);
 }
-
 /* CArousel styling */
-
 .mySlides {
 	display: none;
 }
 img {
 	vertical-align: middle;
 }
-
 /* Slideshow container */
 .slideshow-container {
 	/* max-width: 1000px; */
 	position: relative;
 	margin: auto;
 }
-
 /* Next & previous buttons */
 .prev,
 .next {
@@ -112,19 +100,16 @@ img {
 	border-radius: 0 3px 3px 0;
 	user-select: none;
 }
-
 /* Position the "next button" to the right */
 .next {
 	right: 0;
 	border-radius: 3px 0 0 3px;
 }
-
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
 	background-color: rgba(0, 0, 0, 0.8);
 }
-
 /* Caption text */
 .text {
 	color: #ff0000;
@@ -137,7 +122,6 @@ img {
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 }
-
 /* Number text (1/3 etc) */
 .numbertext {
 	color: #f2f2f2;
@@ -146,7 +130,6 @@ img {
 	position: absolute;
 	top: 0;
 }
-
 /* The dots/bullets/indicators */
 .dot {
 	cursor: pointer;
@@ -158,12 +141,10 @@ img {
 	display: inline-block;
 	transition: background-color 0.6s ease;
 }
-
 .active,
 .dot:hover {
 	background-color: #717171;
 }
-
 /* Fading animation */
 .fade {
 	-webkit-animation-name: fade;
@@ -173,7 +154,6 @@ img {
 	animation-name: fade;
 	animation-duration: 1.5s;
 }
-
 @-webkit-keyframes fade {
 	from {
 		opacity: 0.4;
@@ -182,7 +162,6 @@ img {
 		opacity: 1;
 	}
 }
-
 @keyframes fade {
 	from {
 		opacity: 0.4;
@@ -191,7 +170,6 @@ img {
 		opacity: 1;
 	}
 }
-
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
 	.prev,

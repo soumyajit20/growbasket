@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 .footer__container {
 	width: 1300px;
 	margin: auto;
@@ -11,7 +10,6 @@
 	display: flex;
 	flex-direction: column;
 }
-
 .footer {
 	height: auto;
 	width: 100%;
@@ -30,14 +28,12 @@
 	justify-content: space-around;
 	padding: 20px;
 }
-
 .foo-row h3 {
 	color: #f04700;
 	padding-bottom: 4%;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 }
-
 .foo-row .heading_text {
 	font-size: 20px;
 	font-weight: 500;
@@ -70,7 +66,6 @@
 .foo-row .foo-col-2 .foo-col-3 p {
 	color: black !important;
 }
-
 .foo-row-cr {
 	display: flex;
 	align-items: center;
@@ -79,12 +74,10 @@
 	padding: 10px;
 	background-color: #111b1e;
 }
-
 .foo-row-cr h3 {
 	color: #f04700;
 	padding-bottom: 4%;
 }
-
 .foo-row-cr .heading_text {
 	font-size: 20px;
 	font-weight: 500;
@@ -100,14 +93,12 @@ hr {
 	margin-left: -67px;
 	overflow-x: hidden;
 }
-
 .foo-row .foo-col-4 .fa {
 	padding: 10px;
 	/* background-color: #fff; */
 	font-weight: 600;
 	font-size: 20px;
 }
-
 .fa-facebook-f:before,
 .fa-facebook:before {
 	content: '\f09a';

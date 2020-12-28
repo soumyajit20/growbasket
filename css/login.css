@@ -1,7 +1,6 @@
 body {
 	background-color: rgb(216, 216, 240);
 }
-
 #form {
 	/* position: absolute; */
 	position: relative;
@@ -14,12 +13,10 @@ body {
 	background-color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .content {
 	margin-left: 100px;
 	margin-top: 50px;
 }
-
 #pass {
 	position: absolute;
 	bottom: 272px;
@@ -33,7 +30,6 @@ body {
 	border: 0.4px solid rgb(175, 171, 171);
 	color: rgb(175, 171, 171);
 }
-
 #user {
 	position: absolute;
 	/* bottom: 140px; */
@@ -66,7 +62,6 @@ body {
 	-webkit-transition-duration: 0.4s;
 	transition-duration: 0.4s;
 }
-
 #btn:hover {
 	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
 		0 17px 50px 0 rgba(0, 0, 0, 0.19);
@@ -74,7 +69,6 @@ body {
 #btn:active {
 	transform: translateY(4px);
 }
-
 #para {
 	position: absolute;
 	top: 18px;
@@ -87,7 +81,6 @@ body {
 	border-radius: 10px;
 	/* border-color: ; */
 }
-
 #para:hover {
 	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
 		0 17px 50px 0 rgba(0, 0, 0, 0.19);
@@ -98,24 +91,20 @@ body {
 	right: 74px;
 	font-size: 19px;
 }
-
 input:focus::-webkit-input-placeholder {
 	font-size: 0.75em;
 	position: relative;
 	transform: translateY(-15px);
 	transition: 0.4s ease-out;
 }
-
 /* input::-webkit-input-placeholder {
 	transition: 0.5s ease-in;
 } */
-
 input:focus {
 	height: 50px;
 	padding-bottom: 0px;
 	transition: 0.5s ease-in;
 }
-
 input {
 	height: 50px;
 	transition: 0.5s ease-in;
